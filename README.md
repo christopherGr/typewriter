@@ -1,2 +1,0 @@
-# typewriter
-Typewriter Effect
