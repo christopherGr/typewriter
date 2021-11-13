@@ -7,10 +7,10 @@
   </head>
   <body>  
 	<div id="container" style="background-color:powderblue; width:50vw; height:50vh;">
-		<div id="message-container"></div>	
+	   <div id="message-container"></div>	
 	</div>	
 	<script>
-		(async function init(){
+		(async function(){
 			const typewriter = new TypeWriter(document.getElementById("message-container"));
 			typewriter.setData("Hello World!");
 			await typewriter.write();
