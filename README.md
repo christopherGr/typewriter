@@ -49,4 +49,4 @@ async function write(){<br>
 	&nbsp;&nbsp;await typewriter.clear();<br>
 }<br><br>
 
-Or you can include TypeWriter as a script. See example.
+Or you can include e-typewriter as a script. See example.
