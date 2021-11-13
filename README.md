@@ -13,14 +13,14 @@ typewriter.setData(); //Set the displayed message<br>
 new TypeWriter(el, time=4000, font="Verdana", fontSize="1em", textColor="hsla(240,100%,0%,100%)", caretColor="hsla(240,100%,0%,100%)", caretSize=1, deleteInterval=15);<br><br>
 
 <b>Arguments</b><br>
-An element from the document which supports innerHTML method and has an id, to display the message. (required)<br>
-The total time in ms, that the effect will be completed. (optional)<br>
-Font-family. (optional)<br>
-Font-size (px, em, rem, %, vw, calc(vw+vh)). All units are accepted. (optional)<br>
-Text color. ("black", hex color, hsla, rgba). All values are accepted. (optional)<br>
-Caret color. ("black", hex color, hsla, rgba). All values are accepted. (optional)<br>
-Caret size. Default size is 1. Accepts a number. For example 2, 1.3.. (optional)<br>
-Interval time for deleting effect. (optional)<br>
+1. An element from the document which supports innerHTML method and has an id, to display the message. (required)<br>
+2. The total time in ms, that the effect will be completed. (optional)<br>
+3. Font-family. (optional)<br>
+4. Font-size (px, em, rem, %, vw, calc(vw+vh)). All units are accepted. (optional)<br>
+5. Text color. ("black", hex color, hsla, rgba). All values are accepted. (optional)<br>
+6. Caret color. ("black", hex color, hsla, rgba). All values are accepted. (optional)<br>
+7. Caret size. Default size is 1. Accepts a number. For example 2, 1.3.. (optional)<br>
+8. Interval time for deleting effect. (optional)<br>
 
 ***Caret will dissapeared after time\*2 seconds.<br>
 ***Caret size affects the line-height. It is recommended to use values larger that "1" only in a sinle line text.<br>
