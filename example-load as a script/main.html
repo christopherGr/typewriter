@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>TypeWriter Effect</title> 
+		<script src="./e-typewriter.js"></script>
+  </head>
+  <body>  
+	<div id="container" style="background-color:powderblue; width:50vw; height:50vh;">
+		<div id="message-container"></div>	
+	</div>	
+	<script>
+		(async function init(){
+			const typewriter = new TypeWriter(document.getElementById("message-container"));
+			typewriter.setData("Hello World!");
+			await typewriter.write();
+			typewriter.setData("How are you today?");
+			await typewriter.write();
+			await typewriter.clear();
+		})();
+	</script>
+  </body>
+</html>
