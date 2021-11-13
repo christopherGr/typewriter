@@ -1,9 +1,9 @@
 # typewriter
 
 Typewritter Effect
-Accepts an element which supports innerHTML method, (no need for any style) with an id.
-const TypeWriter = require("TypeWriter.js");	
-const typewriter = new TypeWriter(document.getElementById("message-container"));
+Accepts an element which supports innerHTML method, (no need for any style) with an id.\n
+const TypeWriter = require("TypeWriter.js");\n	
+const typewriter = new TypeWriter(document.getElementById("message-container"));\n
 
 Methods
 typewriter.write(); or await typewriter.write();
