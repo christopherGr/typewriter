@@ -29,7 +29,7 @@ new TypeWriter(el, time=4000, font="Verdana", fontSize="1em", textColor="hsla(24
 
 <b>npm i type-writer</b>
 
-const TypeWriter = require("e-typewriter.js");<br>
+const TypeWriter = require("e-typewriter");<br>
 const container = document.getElementById("message-container");<br>
 const typewriter = new TypeWriter(container);<br>
 typewriter.setData("Hello World!");<br>
@@ -39,7 +39,7 @@ OR in async mode<br>
 write();<br>
 
 async function write(){<br>
-	&nbsp;&nbsp;const TypeWriter = require("e-typewriter.js");<br>	
+	&nbsp;&nbsp;const TypeWriter = require("e-typewriter");<br>	
 	&nbsp;&nbsp;const container = document.getElementById("message-container");<br>
 	&nbsp;&nbsp;const typewriter = new TypeWriter(container);<br>
 	&nbsp;&nbsp;typewriter.setData("Hello World!");<br>
